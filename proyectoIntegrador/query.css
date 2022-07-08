@@ -1,0 +1,30 @@
+@media (max-width: 700px){
+.nav{
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+grid-template-areas: "logo logIn"
+                    "btn1 btn1"
+                    "btn2 btn2"
+                    "btn3 btn3";
+} 
+.nav button{
+    margin-left: 0px;
+}
+.nav #btnLoginUser{width: 80%;}
+.header .headerTitle{font-size: 200%;}
+.header .headerText{font-size: 100%;}
+#aboutUs .container{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "img1" 
+                        "txt1"
+                         "img2" 
+                        "txt2";
+}
+.oportunities .cardContainer{flex-direction: column;}
+#news .cardContainer{
+    align-items: center;
+    flex-direction: column;}
+#news .card{width: 50%;}
+#contact{flex-direction: column;}
+}
